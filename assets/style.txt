@@ -1,0 +1,17 @@
+CheckBox: [✓]
+UncheckBox: [ ]
+H1Color: (32, 12, 234)
+H1Sign: ██
+H2Color: (234, 45, 134)
+H2Color: ▓▓▓
+H3Color: (34, 56, 128)
+H3Sign: ▒▒▒▒
+H4Color: (65, 45, 255)
+H4Sign: ░░░░░
+H5color: (45, 67, 89)
+H5Sign:
+H6color: (89, 123, 67)
+H6Sign:
+TableUnderlineSign: ─
+UnorderedListSign: .
+QuoteSign: │
