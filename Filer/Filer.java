@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class Filer {
-    Path filePath;
+    private final Path filePath;
 
     public Filer(String fileType) {
         String fileName = "slides_temp";

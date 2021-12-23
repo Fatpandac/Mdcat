@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class Code extends Blocks{
-    Filer filer;
+    private Filer filer;
 
     public Code(String code, String codeType) {
         super(code, codeType);

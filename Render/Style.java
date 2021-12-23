@@ -28,7 +28,7 @@ public class Style {
 
     public Style() {
         Stream<String> configContent = loadFile();
-        inti(configContent);
+        init(configContent);
     }
 
     public Stream<String> loadFile() {
@@ -40,7 +40,7 @@ public class Style {
         return lines;
     }
 
-    public void inti(Stream<String> configContent) {
+    public void init(Stream<String> configContent) {
         Pattern configPattern = Pattern.compile("^(.*):(.*)$");
         configContent.forEach(line -> {
             Matcher matcher = configPattern.matcher(line);

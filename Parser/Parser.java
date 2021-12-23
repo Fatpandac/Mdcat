@@ -74,7 +74,7 @@ public class Parser {
     }
 
     // To match in content by pattern and return a list of result
-    public List<String> getMatchResult(String content, Pattern pattern) {
+    private List<String> getMatchResult(String content, Pattern pattern) {
         List<String> list = new ArrayList<>();
         Matcher matcher = pattern.matcher(content);
         while (matcher.find()) {

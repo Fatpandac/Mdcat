@@ -6,12 +6,12 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class mdcat {
+public class Mdcat {
     public static void main(String[] args) {
         start(args);
     }
 
-    public static  void start(String[] args) {
+    private static  void start(String[] args) {
         boolean systemInAvailableIsEmpty = false;
         try {
             systemInAvailableIsEmpty = System.in.available() == 0;
